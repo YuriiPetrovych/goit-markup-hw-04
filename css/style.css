@@ -324,7 +324,7 @@ background-blend-mode: soft-light, normal;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-bottom: 30px;
+  margin-bottom: 8px;
 }
 
 .team-list-content {
@@ -354,6 +354,11 @@ background-blend-mode: soft-light, normal;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+background-color: #404bbf;
 }
 
 /* client */
